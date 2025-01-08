@@ -25,8 +25,9 @@ ll solve(ll n)
 
 int main()
 {
+    ifstream input("khongcp.inp");
+    ofstream output("khongcp.out");
     ll n;
-    cin >> n;
-    cout << solve(n) << endl;
-    return 0;
+    input >> n;
+    output << solve(n) << endl;
 }
